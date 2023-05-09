@@ -1,6 +1,7 @@
 -- =========================================================================
 -- LUA script for Aseprite: 
--- Export each tag for each visible layer into a different sprite sheet
+-- Export each visible layer subdivided by tag into a different sprite sheet 
+-- and organize the resulting folders by tag name
 -- =========================================================================
 
 local spr = app.activeSprite
